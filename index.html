@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Буйвол Моторс — ремонт и обслуживание грузовых автомобилей. Выезд специалиста, ремонт ДВС, трансмиссии, тормозной системы, подвески и рулевого управления.">
+  <meta property="og:title" content="Буйвол Моторс — Ремонт грузовых автомобилей">
+  <meta property="og:description" content="Профессиональный ремонт и обслуживание грузовых автомобилей. Полный спектр услуг.">
+  <meta property="og:image" content="images/hero-bull.jpg">
+  <title>Буйвол Моторс — Ремонт грузовых автомобилей</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="header__logo">БУЙВОЛ МОТОРС</a>
+      <button class="header__burger" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header__nav">
+        <a href="#hero" class="header__link active">Главная</a>
+        <a href="#services" class="header__link">Услуги</a>
+        <a href="#contacts" class="header__link">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1 class="hero__title">БУЙВОЛ МОТОРС</h1>
+      <p class="hero__tagline">Ремонт и обслуживание грузовых автомобилей</p>
+      <a href="#services" class="btn btn--primary">Наши услуги</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Услуги и цены</h2>
+      <p class="services__note animate-on-scroll">Стоимость норма часа — 3 000 ₽</p>
+
+      <div class="accordion">
+
+        <!-- Выезд специалиста -->
+        <div class="accordion__item animate-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__icon">&#9881;</span>
+            <span>Выезд специалиста</span>
+            <span class="accordion__chevron">&#9662;</span>
+          </button>
+          <div class="accordion__panel" aria-hidden="true">
+            <table class="price-table">
+              <tr><td>Выезд специалиста (в пределах города)</td><td class="price-table__price">5 000 ₽</td></tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Полное ТО -->
+        <div class="accordion__item animate-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__icon">&#9881;</span>
+            <span>Полное ТО</span>
+            <span class="accordion__chevron">&#9662;</span>
+          </button>
+          <div class="accordion__panel" aria-hidden="true">
+            <table class="price-table">
+              <tr><td>Проведение полного ТО (тягач)</td><td class="price-table__price">11 000 ₽</td></tr>
+              <tr><td>Проведение полного ТО (самосвал)</td><td class="price-table__price">12 000 ₽</td></tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- ДВС -->
+        <div class="accordion__item animate-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__icon">&#9881;</span>
+            <span>ДВС</span>
+            <span class="accordion__chevron">&#9662;</span>
+          </button>
+          <div class="accordion__panel" aria-hidden="true">
+            <table class="price-table">
+              <tr><td>Компьютерная диагностика</td><td class="price-table__price">5 000 ₽</td></tr>
+              <tr><td>Снятие/установка ДВС (фургон, спецтехника)</td><td class="price-table__price">50 000 ₽</td></tr>
+              <tr><td>Снятие/установка ДВС</td><td class="price-table__price">40 000 ₽</td></tr>
+              <tr><td>Снятие/установка турбокомпрессора</td><td class="price-table__price">от 8 000 ₽</td></tr>
+              <tr><td>Снятие/установка интеркуллера (при снятой радиаторной группе)</td><td class="price-table__price">2 000 ₽</td></tr>
+              <tr><td>Снятие/установка радиаторной группы</td><td class="price-table__price">9 000 ₽</td></tr>
+              <tr><td>Разборка ДВС с дефектовкой</td><td class="price-table__price">от 20 000 ₽</td></tr>
+              <tr><td>Капитальный ремонт ДВС</td><td class="price-table__price">от 70 000 ₽</td></tr>
+              <tr><td>Снятие/установка стартера</td><td class="price-table__price">от 2 500 ₽</td></tr>
+              <tr><td>С/у натяжителя ремня</td><td class="price-table__price">3 500 ₽</td></tr>
+              <tr><td>Замена приводного ремня</td><td class="price-table__price">1 500 ₽</td></tr>
+              <tr><td>С/у ТНВД</td><td class="price-table__price">10 000 – 12 000 ₽</td></tr>
+              <tr><td>С/у форсунки</td><td class="price-table__price">600 – 2 000 ₽</td></tr>
+              <tr><td>С/у насос-форсунки</td><td class="price-table__price">2 500 ₽</td></tr>
+              <tr><td>С/у клапанной крышки</td><td class="price-table__price">1 000 ₽</td></tr>
+              <tr><td>Регулировка клапанов</td><td class="price-table__price">7 000 – 12 000 ₽</td></tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Трансмиссия -->
+        <div class="accordion__item animate-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__icon">&#9881;</span>
+            <span>Трансмиссия</span>
+            <span class="accordion__chevron">&#9662;</span>
+          </button>
+          <div class="accordion__panel" aria-hidden="true">
+            <table class="price-table">
+              <tr><td>С/у КПП тягач</td><td class="price-table__price">23 000 ₽</td></tr>
+              <tr><td>С/у КПП с ретардером</td><td class="price-table__price">25 000 ₽</td></tr>
+              <tr><td>С/у КПП самосвал</td><td class="price-table__price">26 000 ₽</td></tr>
+              <tr><td>С/у КПП спецтехника</td><td class="price-table__price">от 26 000 ₽</td></tr>
+              <tr><td>Ремонт КПП</td><td class="price-table__price">30 000 ₽</td></tr>
+              <tr><td>С/у узла сцепления</td><td class="price-table__price">7 000 ₽</td></tr>
+              <tr><td>С/у маховика</td><td class="price-table__price">3 000 ₽</td></tr>
+              <tr><td>С/у опорного подшипника</td><td class="price-table__price">800 ₽</td></tr>
+              <tr><td>Замена рем. комплекта вилки сцепления</td><td class="price-table__price">3 000 ₽</td></tr>
+              <tr><td>С/у ПГУ с прокачкой</td><td class="price-table__price">6 000 ₽</td></tr>
+              <tr><td>С/у карданного вала</td><td class="price-table__price">4 000 ₽</td></tr>
+              <tr><td>С/у подвесного подшипника</td><td class="price-table__price">7 000 ₽</td></tr>
+              <tr><td>С/у редуктора (тягач)</td><td class="price-table__price">19 000 ₽</td></tr>
+              <tr><td>С/у редуктора (спецтехника, одиночка)</td><td class="price-table__price">20 000 ₽</td></tr>
+              <tr><td>С/у проходного редуктора</td><td class="price-table__price">23 000 ₽</td></tr>
+              <tr><td>С/у полуоси</td><td class="price-table__price">1 500 ₽</td></tr>
+              <tr><td>Разборка и дефектовка редуктора</td><td class="price-table__price">7 000 ₽</td></tr>
+              <tr><td>Разборка, дефектовка проходного редуктора</td><td class="price-table__price">10 000 ₽</td></tr>
+              <tr><td>Сборка редуктора</td><td class="price-table__price">10 000 ₽</td></tr>
+              <tr><td>Сборка проходного редуктора</td><td class="price-table__price">12 000 ₽</td></tr>
+              <tr><td>С/у ступицы (перед)</td><td class="price-table__price">6 000 ₽</td></tr>
+              <tr><td>С/у ступицы (зад)</td><td class="price-table__price">8 000 ₽</td></tr>
+              <tr><td>С/у заднего моста</td><td class="price-table__price">30 000 ₽</td></tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Тормозная система -->
+        <div class="accordion__item animate-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__icon">&#9881;</span>
+            <span>Тормозная система</span>
+            <span class="accordion__chevron">&#9662;</span>
+          </button>
+          <div class="accordion__panel" aria-hidden="true">
+            <table class="price-table">
+              <tr><td>Диагностика тормозной системы</td><td class="price-table__price">от 2 000 ₽</td></tr>
+              <tr><td>С/у суппорта (перед, зад)</td><td class="price-table__price">1 800 ₽</td></tr>
+              <tr><td>С/у тормозного барабана (перед, зад)</td><td class="price-table__price">2 500 ₽</td></tr>
+              <tr><td>С/у колодок (с дисковыми тормозами)</td><td class="price-table__price">1 000 ₽</td></tr>
+              <tr><td>С/у колодок (с барабанными тормозами)</td><td class="price-table__price">2 000 ₽</td></tr>
+              <tr><td>С/у тормозного диска</td><td class="price-table__price">7 000 ₽</td></tr>
+              <tr><td>Замена рем. к-та направляющих суппорта</td><td class="price-table__price">3 500 ₽</td></tr>
+              <tr><td>Переборка суппорта</td><td class="price-table__price">7 000 ₽</td></tr>
+              <tr><td>С/у тормозного вала</td><td class="price-table__price">2 000 ₽</td></tr>
+              <tr><td>Замена втулки тормозного вала</td><td class="price-table__price">600 ₽</td></tr>
+              <tr><td>С/у энергоаккумулятора</td><td class="price-table__price">2 500 ₽</td></tr>
+              <tr><td>С/у тормозной камеры</td><td class="price-table__price">1 500 ₽</td></tr>
+              <tr><td>Замена тормозных колодок на ось</td><td class="price-table__price">9 000 ₽</td></tr>
+              <tr><td>Переклепать колодки на ось</td><td class="price-table__price">10 000 ₽</td></tr>
+              <tr><td>С/у рычага тормозного</td><td class="price-table__price">2 500 ₽</td></tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Подвеска -->
+        <div class="accordion__item animate-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__icon">&#9881;</span>
+            <span>Подвеска</span>
+            <span class="accordion__chevron">&#9662;</span>
+          </button>
+          <div class="accordion__panel" aria-hidden="true">
+            <table class="price-table">
+              <tr><td>Диагностика подвески</td><td class="price-table__price">2 500 ₽</td></tr>
+              <tr><td>С/у колеса</td><td class="price-table__price">600 ₽</td></tr>
+              <tr><td>С/у амортизатора</td><td class="price-table__price">2 000 ₽</td></tr>
+              <tr><td>С/у рессоры</td><td class="price-table__price">8 000 ₽</td></tr>
+              <tr><td>С/у рессоры (спецтехника)</td><td class="price-table__price">9 000 ₽</td></tr>
+              <tr><td>С/у пневморессоры в сборе</td><td class="price-table__price">7 000 ₽</td></tr>
+              <tr><td>С/у пневморессоры</td><td class="price-table__price">9 000 ₽</td></tr>
+              <tr><td>Замена втулки рессоры</td><td class="price-table__price">2 000 ₽</td></tr>
+              <tr><td>С/у стабилизатора поперечной устойчивости</td><td class="price-table__price">5 000 ₽</td></tr>
+              <tr><td>Замена втулок стабилизатора</td><td class="price-table__price">от 800 ₽</td></tr>
+              <tr><td>С/у реактивной тяги</td><td class="price-table__price">4 000 ₽</td></tr>
+              <tr><td>Замена сайлентблока реактивной тяги</td><td class="price-table__price">2 000 ₽</td></tr>
+              <tr><td>С/у V-образной тяги</td><td class="price-table__price">9 000 ₽</td></tr>
+              <tr><td>С/у балансира</td><td class="price-table__price">10 000 ₽</td></tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Рулевое управление -->
+        <div class="accordion__item animate-on-scroll">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__icon">&#9881;</span>
+            <span>Рулевое управление</span>
+            <span class="accordion__chevron">&#9662;</span>
+          </button>
+          <div class="accordion__panel" aria-hidden="true">
+            <table class="price-table">
+              <tr><td>Диагностика</td><td class="price-table__price">2 000 ₽</td></tr>
+              <tr><td>С/у рулевой тяги</td><td class="price-table__price">2 000 ₽</td></tr>
+              <tr><td>С/у рулевого редуктора</td><td class="price-table__price">14 000 ₽</td></tr>
+              <tr><td>С/у насоса гидроусилителя</td><td class="price-table__price">6 000 ₽</td></tr>
+              <tr><td>С/у рулевого наконечника</td><td class="price-table__price">1 600 ₽</td></tr>
+              <tr><td>С/у поворотного кулака</td><td class="price-table__price">12 000 ₽</td></tr>
+              <tr><td>Замена шкворня</td><td class="price-table__price">12 000 ₽</td></tr>
+              <tr><td>Установка схождения колёс 4х2</td><td class="price-table__price">6 000 ₽</td></tr>
+              <tr><td>Установка схождения колёс 8х4</td><td class="price-table__price">7 000 ₽</td></tr>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts -->
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Контакты</h2>
+      <div class="contacts__grid">
+        <div class="contact-card animate-on-scroll">
+          <div class="contact-card__icon">&#9742;</div>
+          <h3>Телефон</h3>
+          <a href="tel:+7XXXXXXXXXX">+7 (XXX) XXX-XX-XX</a>
+        </div>
+        <div class="contact-card animate-on-scroll">
+          <div class="contact-card__icon">&#9873;</div>
+          <h3>Адрес</h3>
+          <p>г. Город, ул. Улица, д. XX</p>
+        </div>
+        <div class="contact-card animate-on-scroll">
+          <div class="contact-card__icon">&#9993;</div>
+          <h3>Email</h3>
+          <a href="mailto:info@buivolmotors.ru">info@buivolmotors.ru</a>
+        </div>
+        <div class="contact-card animate-on-scroll">
+          <div class="contact-card__icon">&#9200;</div>
+          <h3>Часы работы</h3>
+          <p>Пн–Пт: 9:00–18:00</p>
+          <p>Сб: 10:00–16:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Буйвол Моторс. Все права защищены.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
