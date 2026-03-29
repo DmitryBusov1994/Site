@@ -3,30 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Буйвол Моторс — ремонт и обслуживание грузовых автомобилей. Выезд специалиста, ремонт ДВС, трансмиссии, тормозной системы, подвески и рулевого управления.">
-  <meta property="og:title" content="Буйвол Моторс — Ремонт грузовых автомобилей">
-  <meta property="og:description" content="Профессиональный ремонт и обслуживание грузовых автомобилей. Полный спектр услуг.">
+  <meta name="description" content="Буйвол Моторс — выездная диагностика и ремонт грузовых автомобилей в Екатеринбурге. Приедем к вам за 60 минут. Ремонт прямо на месте поломки.">
+  <meta property="og:title" content="Буйвол Моторс — Выездная диагностика грузовых в Екатеринбурге">
+  <meta property="og:description" content="Ломается в рейсе — мы приедем. Выездная диагностика и ремонт грузовых автомобилей по Екатеринбургу и области.">
   <meta property="og:image" content="images/hero-bull.jpg">
-  <title>Буйвол Моторс — Ремонт грузовых автомобилей</title>
+  <title>Буйвол Моторс — Выездная диагностика грузовых | Екатеринбург</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;600;700&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js" defer></script>
 </head>
 <body>
 
+  <!-- Gear decorations background -->
+  <div class="gear-bg" aria-hidden="true">
+    <svg class="gear-bg__gear gear-bg__gear--1" viewBox="0 0 100 100">
+      <use href="#gear-shape"/>
+    </svg>
+    <svg class="gear-bg__gear gear-bg__gear--2" viewBox="0 0 100 100">
+      <use href="#gear-shape"/>
+    </svg>
+    <svg class="gear-bg__gear gear-bg__gear--3" viewBox="0 0 100 100">
+      <use href="#gear-shape"/>
+    </svg>
+  </div>
+
+  <!-- SVG defs -->
+  <svg style="display:none" aria-hidden="true">
+    <defs>
+      <symbol id="gear-shape" viewBox="0 0 100 100">
+        <path d="M43.3 5.5L40 18.2a32 32 0 00-7.6 3.2L20.6 16 10.5 26l5.4 11.8a32 32 0 00-3.2 7.6L0 48.7v14.6l12.7 3.3a32 32 0 003.2 7.6L10.5 86 20.6 96l11.8-5.4a32 32 0 007.6 3.2L43.3 106.5h14.4L61 93.8a32 32 0 007.6-3.2L80.4 96l10.1-10-5.4-11.8a32 32 0 003.2-7.6L100.9 63V48.4l-12.6-3.3a32 32 0 00-3.2-7.6L90.5 26 80.4 16 68.6 21.4a32 32 0 00-7.6-3.2L57.7 5.5H43.3zM50 32a18 18 0 110 36 18 18 0 010-36z"/>
+      </symbol>
+      <symbol id="icon-wrench" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="2" d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+      </symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.5" d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+      </symbol>
+      <symbol id="icon-pin" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.5" d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      </symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><polyline points="12 6 12 12 16 14" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      </symbol>
+      <symbol id="icon-truck" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.5" d="M1 3h15v13H1zM16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="18.5" cy="18.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      </symbol>
+      <symbol id="icon-lightning" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+      </symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.5" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+      </symbol>
+      <symbol id="icon-timer" viewBox="0 0 24 24">
+        <circle cx="12" cy="13" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/><path fill="none" stroke="currentColor" stroke-width="1.5" d="M12 9v4l2.5 2.5M8 2h8M12 2v3"/>
+      </symbol>
+    </defs>
+  </svg>
+
   <!-- Header -->
   <header class="header" id="header">
     <div class="container header__inner">
-      <a href="#hero" class="header__logo">БУЙВОЛ МОТОРС</a>
+      <a href="#hero" class="header__logo">
+        <span class="header__logo-bull">&#9646;</span>
+        БУЙВОЛ МОТОРС
+      </a>
       <button class="header__burger" aria-label="Открыть меню">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </button>
       <nav class="header__nav">
         <a href="#hero" class="header__link active">Главная</a>
+        <a href="#why" class="header__link">Почему мы</a>
         <a href="#services" class="header__link">Услуги</a>
         <a href="#contacts" class="header__link">Контакты</a>
       </nav>
@@ -36,31 +84,148 @@
   <!-- Hero -->
   <section class="hero" id="hero">
     <div class="hero__overlay"></div>
+    <div class="hero__sparks" aria-hidden="true">
+      <div class="spark"></div><div class="spark"></div><div class="spark"></div>
+      <div class="spark"></div><div class="spark"></div><div class="spark"></div>
+      <div class="spark"></div><div class="spark"></div>
+    </div>
     <div class="hero__content">
-      <h1 class="hero__title fire-text">БУЙВОЛ МОТОРС</h1>
-      <p class="hero__tagline">Ремонт и обслуживание<br>грузовых автомобилей</p>
-      <a href="#services" class="btn btn--primary">Наши услуги</a>
+      <div class="hero__eyebrow animate-fade-in">
+        <span class="hero__city">
+          <svg width="14" height="14"><use href="#icon-pin"/></svg>
+          Екатеринбург
+        </span>
+      </div>
+      <h1 class="hero__title fire-text animate-fade-in">БУЙВОЛ<br>МОТОРС</h1>
+      <p class="hero__tagline animate-fade-in">
+        Грузовик встал — мы уже едем.<br>
+        <strong>Выездная диагностика за 60 минут.</strong>
+      </p>
+      <div class="hero__cta animate-fade-in">
+        <a href="tel:+73432000000" class="btn btn--primary">
+          <svg width="18" height="18"><use href="#icon-phone"/></svg>
+          Вызвать мастера
+        </a>
+        <a href="#services" class="btn btn--outline">Прайс-лист</a>
+      </div>
+      <div class="hero__stats animate-fade-in">
+        <div class="hero__stat">
+          <span class="hero__stat-num fire-text-small">60</span>
+          <span class="hero__stat-label">мин до выезда</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num fire-text-small">24/7</span>
+          <span class="hero__stat-label">экстренный выезд</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num fire-text-small">5+</span>
+          <span class="hero__stat-label">лет в деле</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="why" id="why">
+    <div class="why__gear-left gear-deco" aria-hidden="true">
+      <svg viewBox="0 0 100 100"><use href="#gear-shape"/></svg>
+    </div>
+    <div class="why__gear-right gear-deco" aria-hidden="true">
+      <svg viewBox="0 0 100 100"><use href="#gear-shape"/></svg>
+    </div>
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Наше отличие</span>
+        <h2 class="section-title fire-text">Почему Буйвол Моторс</h2>
+        <p class="section-subtitle">
+          Мы не ждём вас в боксе. Мы сами едем к вашему грузовику —<br>
+          туда, где он стоит: на трассе, на складе, на стройплощадке.
+        </p>
+      </div>
+
+      <div class="why__grid">
+        <div class="why__card animate-on-scroll">
+          <div class="why__card-icon">
+            <svg width="36" height="36"><use href="#icon-truck"/></svg>
+          </div>
+          <h3>Выезд прямо к вам</h3>
+          <p>Не нужно тянуть машину на эвакуаторе. Наш мастер приедет с оборудованием и устранит неисправность прямо на месте.</p>
+        </div>
+        <div class="why__card animate-on-scroll">
+          <div class="why__card-icon">
+            <svg width="36" height="36"><use href="#icon-timer"/></svg>
+          </div>
+          <h3>Реакция за 60 минут</h3>
+          <p>Принимаем заявку — выезжаем в течение часа. Каждый час простоя стоит денег. Мы это понимаем лучше других.</p>
+        </div>
+        <div class="why__card animate-on-scroll">
+          <div class="why__card-icon">
+            <svg width="36" height="36"><use href="#icon-lightning"/></svg>
+          </div>
+          <h3>Компьютерная диагностика</h3>
+          <p>Профессиональное диагностическое оборудование. Точный диагноз без гаданий — ставим проблему на чистую воду с первого раза.</p>
+        </div>
+        <div class="why__card animate-on-scroll">
+          <div class="why__card-icon">
+            <svg width="36" height="36"><use href="#icon-shield"/></svg>
+          </div>
+          <h3>Честная цена</h3>
+          <p>Стоимость работ — фиксированная. Называем цену до начала ремонта. Никаких скрытых «набежало пока чинили».</p>
+        </div>
+      </div>
+
+      <!-- Industrial separator -->
+      <div class="industrial-separator animate-on-scroll">
+        <div class="industrial-separator__line"></div>
+        <div class="industrial-separator__gear">
+          <svg viewBox="0 0 100 100"><use href="#gear-shape"/></svg>
+        </div>
+        <div class="industrial-separator__line"></div>
+      </div>
+
+      <div class="callout animate-on-scroll">
+        <div class="callout__icon">
+          <svg width="28" height="28"><use href="#icon-lightning"/></svg>
+        </div>
+        <div class="callout__body">
+          <strong>Ваш грузовик стоит — каждый час убытки.</strong>
+          Одна смена простоя тягача = потерянный рейс + штраф за срыв сроков.
+          Мы специализируемся именно на экстренных выездах — это наш профиль, а не побочная услуга.
+        </div>
+        <a href="tel:+73432000000" class="callout__cta">Звонить сейчас</a>
+      </div>
     </div>
   </section>
 
   <!-- Services -->
   <section class="services" id="services">
     <div class="container">
-      <h2 class="section-title fire-text animate-on-scroll">Услуги и цены</h2>
-      <p class="services__note animate-on-scroll">Стоимость норма часа — 3 000 ₽</p>
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Прайс-лист</span>
+        <h2 class="section-title fire-text">Услуги и цены</h2>
+        <p class="section-subtitle">Норма-час — <strong class="accent">3 000 ₽</strong>. Окончательная стоимость согласовывается до начала работ.</p>
+      </div>
 
       <div class="accordion">
 
         <!-- Выезд специалиста -->
         <div class="accordion__item animate-on-scroll">
           <button class="accordion__trigger" aria-expanded="false">
-            <svg class="accordion__icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            <svg class="accordion__icon" width="22" height="22"><use href="#icon-wrench"/></svg>
             <span>Выезд специалиста</span>
-            <span class="accordion__chevron">&#9662;</span>
+            <svg class="accordion__chevron" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="accordion__panel" aria-hidden="true">
             <table class="price-table">
-              <tr><td>Выезд специалиста (в пределах города)</td><td class="price-table__price">5 000 ₽</td></tr>
+              <tr><td>Выезд специалиста (в пределах Екатеринбурга)</td><td class="price-table__price">5 000 ₽</td></tr>
+              <tr><td>Выездная диагностика (компьютерная)</td><td class="price-table__price">5 000 ₽</td></tr>
             </table>
           </div>
         </div>
@@ -68,9 +233,9 @@
         <!-- Полное ТО -->
         <div class="accordion__item animate-on-scroll">
           <button class="accordion__trigger" aria-expanded="false">
-            <svg class="accordion__icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
-            <span>Полное ТО</span>
-            <span class="accordion__chevron">&#9662;</span>
+            <svg class="accordion__icon" width="22" height="22"><use href="#icon-wrench"/></svg>
+            <span>Полное техническое обслуживание</span>
+            <svg class="accordion__chevron" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="accordion__panel" aria-hidden="true">
             <table class="price-table">
@@ -83,9 +248,9 @@
         <!-- ДВС -->
         <div class="accordion__item animate-on-scroll">
           <button class="accordion__trigger" aria-expanded="false">
-            <svg class="accordion__icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
-            <span>ДВС</span>
-            <span class="accordion__chevron">&#9662;</span>
+            <svg class="accordion__icon" width="22" height="22"><use href="#icon-wrench"/></svg>
+            <span>Двигатель (ДВС)</span>
+            <svg class="accordion__chevron" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="accordion__panel" aria-hidden="true">
             <table class="price-table">
@@ -112,9 +277,9 @@
         <!-- Трансмиссия -->
         <div class="accordion__item animate-on-scroll">
           <button class="accordion__trigger" aria-expanded="false">
-            <svg class="accordion__icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            <svg class="accordion__icon" width="22" height="22"><use href="#icon-wrench"/></svg>
             <span>Трансмиссия</span>
-            <span class="accordion__chevron">&#9662;</span>
+            <svg class="accordion__chevron" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="accordion__panel" aria-hidden="true">
             <table class="price-table">
@@ -148,9 +313,9 @@
         <!-- Тормозная система -->
         <div class="accordion__item animate-on-scroll">
           <button class="accordion__trigger" aria-expanded="false">
-            <svg class="accordion__icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            <svg class="accordion__icon" width="22" height="22"><use href="#icon-wrench"/></svg>
             <span>Тормозная система</span>
-            <span class="accordion__chevron">&#9662;</span>
+            <svg class="accordion__chevron" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="accordion__panel" aria-hidden="true">
             <table class="price-table">
@@ -176,9 +341,9 @@
         <!-- Подвеска -->
         <div class="accordion__item animate-on-scroll">
           <button class="accordion__trigger" aria-expanded="false">
-            <svg class="accordion__icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            <svg class="accordion__icon" width="22" height="22"><use href="#icon-wrench"/></svg>
             <span>Подвеска</span>
-            <span class="accordion__chevron">&#9662;</span>
+            <svg class="accordion__chevron" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="accordion__panel" aria-hidden="true">
             <table class="price-table">
@@ -203,9 +368,9 @@
         <!-- Рулевое управление -->
         <div class="accordion__item animate-on-scroll">
           <button class="accordion__trigger" aria-expanded="false">
-            <svg class="accordion__icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            <svg class="accordion__icon" width="22" height="22"><use href="#icon-wrench"/></svg>
             <span>Рулевое управление</span>
-            <span class="accordion__chevron">&#9662;</span>
+            <svg class="accordion__chevron" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="accordion__panel" aria-hidden="true">
             <table class="price-table">
@@ -229,28 +394,43 @@
   <!-- Contacts -->
   <section class="contacts" id="contacts">
     <div class="container">
-      <h2 class="section-title fire-text animate-on-scroll">Контакты</h2>
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Связаться</span>
+        <h2 class="section-title fire-text">Контакты</h2>
+        <p class="section-subtitle">Екатеринбург и область. Работаем без выходных.</p>
+      </div>
       <div class="contacts__grid">
         <div class="contact-card animate-on-scroll">
-          <div class="contact-card__icon"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+          <div class="contact-card__icon"><svg width="32" height="32"><use href="#icon-phone"/></svg></div>
           <h3>Телефон</h3>
-          <a href="tel:+7XXXXXXXXXX">+7 (XXX) XXX-XX-XX</a>
+          <a href="tel:+73432000000">+7 (343) XXX-XX-XX</a>
+          <span class="contact-card__note">Экстренный выезд 24/7</span>
         </div>
         <div class="contact-card animate-on-scroll">
-          <div class="contact-card__icon"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-          <h3>Адрес</h3>
-          <p>г. Город, ул. Улица, д. XX</p>
+          <div class="contact-card__icon"><svg width="32" height="32"><use href="#icon-pin"/></svg></div>
+          <h3>Город</h3>
+          <p>Екатеринбург и область</p>
+          <span class="contact-card__note">Выезд по всему городу</span>
         </div>
         <div class="contact-card animate-on-scroll">
-          <div class="contact-card__icon"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-          <h3>Email</h3>
-          <a href="mailto:info@buivolmotors.ru">info@buivolmotors.ru</a>
+          <div class="contact-card__icon"><svg width="32" height="32"><use href="#icon-clock"/></svg></div>
+          <h3>Режим работы</h3>
+          <p>Пн–Вс: 8:00–22:00</p>
+          <span class="contact-card__note">Экстренно — круглосуточно</span>
         </div>
-        <div class="contact-card animate-on-scroll">
-          <div class="contact-card__icon"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-          <h3>Часы работы</h3>
-          <p>Пн–Пт: 9:00–18:00</p>
-          <p>Сб: 10:00–16:00</p>
+      </div>
+
+      <div class="cta-block animate-on-scroll">
+        <div class="cta-block__gear" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><use href="#gear-shape"/></svg>
+        </div>
+        <div class="cta-block__content">
+          <h3>Машина встала? Не ждите.</h3>
+          <p>Один звонок — и мастер уже в пути. Диагностика, ремонт, запуск.</p>
+          <a href="tel:+73432000000" class="btn btn--primary btn--large">
+            <svg width="20" height="20"><use href="#icon-phone"/></svg>
+            Позвонить прямо сейчас
+          </a>
         </div>
       </div>
     </div>
@@ -258,8 +438,10 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="container">
-      <p>&copy; 2026 Буйвол Моторс. Все права защищены.</p>
+    <div class="container footer__inner">
+      <div class="footer__logo">БУЙВОЛ МОТОРС</div>
+      <p class="footer__text">Выездная диагностика и ремонт грузовых автомобилей · Екатеринбург</p>
+      <p class="footer__copy">&copy; 2026 Буйвол Моторс. Все права защищены.</p>
     </div>
   </footer>
 
