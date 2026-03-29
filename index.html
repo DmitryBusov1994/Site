@@ -7,14 +7,64 @@
   <meta property="og:title" content="Буйвол Моторс — Выездная диагностика грузовых в Екатеринбурге">
   <meta property="og:description" content="Ломается в рейсе — мы приедем. Выездная диагностика и ремонт грузовых автомобилей по Екатеринбургу и области.">
   <meta property="og:image" content="images/hero-bull.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
   <title>Буйвол Моторс — Выездная диагностика грузовых | Екатеринбург</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="images/hero-bull.jpg">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;600;700&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Буйвол Моторс",
+    "description": "Выездная диагностика и ремонт грузовых автомобилей в Екатеринбурге",
+    "image": "images/hero-bull.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Екатеринбург",
+      "addressRegion": "Свердловская область",
+      "addressCountry": "RU"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "08:00",
+        "closes": "22:00"
+      }
+    ],
+    "priceRange": "₽₽",
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 56.8389,
+        "longitude": 60.6057
+      }
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Услуги",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Выездная диагностика"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ремонт ДВС"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ремонт трансмиссии"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ремонт тормозной системы"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ремонт подвески"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ремонт рулевого управления"}}
+      ]
+    }
+  }
+  </script>
 </head>
 <body>
+
+  <!-- Skip navigation -->
+  <a href="#main-content" class="skip-link">Перейти к содержимому</a>
 
   <!-- Gear decorations background -->
   <div class="gear-bg" aria-hidden="true">
@@ -72,7 +122,7 @@
       <button class="header__burger" aria-label="Открыть меню">
         <span></span><span></span><span></span>
       </button>
-      <nav class="header__nav">
+      <nav class="header__nav" role="navigation" aria-label="Основная навигация">
         <a href="#hero" class="header__link active">Главная</a>
         <a href="#why" class="header__link">Почему мы</a>
         <a href="#services" class="header__link">Услуги</a>
@@ -80,6 +130,8 @@
       </nav>
     </div>
   </header>
+
+  <main id="main-content">
 
   <!-- Hero -->
   <section class="hero" id="hero">
@@ -435,6 +487,8 @@
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
